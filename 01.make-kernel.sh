@@ -6,5 +6,5 @@ cp res/boot/config-4.19.90-2112.8.0.0131.oe1.aarch64 src/linux-4.19.90-2112.8.0.
 #	make clean
 	make -j64
 	make modules_install -j64
-	mkinitrd -v initramfs.img-4.19.90 4.19.90
+	mkinitrd -v initramfs-4.19.90.img 4.19.90 --force
 )
